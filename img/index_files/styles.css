@@ -1,0 +1,343 @@
+html {
+	background: #white;
+}
+
+body {
+	font-family: 'Helvetica', sans-serif;
+	
+	width: 100%;
+}
+ul {
+	list-style: none;
+	text-align: center;
+	font-family: 'Helvetica', sans-serif;
+}
+
+h3 {
+	margin-top: 0;
+	font-family: 'Helvetica', sans-serif;
+	text-align: center;
+}
+
+h5 {
+	font-family: 'Helvetica', sans-serif;
+	font-weight: 700;
+	margin: 1em 0 0 0;
+	text-align: center;
+}
+
+h2 {
+	width: 100%;
+	text-align: center;
+	font-family: 'Helvetica', sans-serif;
+}
+
+h6 {
+	font-size: .5em;
+	margin-left: 5%;
+}
+
+/*fixed banner image*/
+.banner img {
+	width: 100%;
+	position: fixed;
+	margin-top: -5em;
+	z-index: -10;
+	text-align: center;
+}
+
+/*maru logo and slogan*/
+
+.center h3 {
+	width: 100%;
+	display: block;
+	margin: -2em auto 5% auto;
+	text-align: center;
+
+}
+
+.logo {
+	width: 100%;
+}
+
+.logo img{
+	width: 30%;
+	display: block;
+	margin: 5em auto;
+}
+
+/*about and contact content*/
+
+div.content-bg {
+	background-color: #fff;
+	margin-top: -1%;
+	position: relative;
+}
+
+.menu-content-bg {
+	background: #fff;
+	height: 75.5em;
+}
+
+.content {
+	width: 70%;
+	margin: 0 auto;
+	padding: 5% 2%;
+}
+
+.welcome {
+	width: 40%;
+	float: left;
+	margin: 0 5%;
+}
+
+.contact {
+	width: 20%;
+	float: right;
+	margin: 0 5%;
+}
+
+.contact li{
+	list-style: none;
+}
+
+
+
+.hours li {
+	list-style: none;
+}
+
+
+/*menu content*/
+
+.prices {
+	text-align: center;
+}
+.prices li{
+	list-style: none;
+	display: inline;
+	margin: 0 3%;
+}
+
+.description {
+	text-align: center;
+}
+
+.description li {
+	list-style: none;
+	display: inline;
+	margin: 0 3%;
+}
+
+.left {
+	width: 40%;
+	float: left;
+	padding: 5%;
+}
+
+.right {
+	width: 40%;
+	float: right;
+	padding: 5%;
+}
+
+/*footer & map*/
+
+.footer {
+	width: 100%;
+	height: 27em;
+	background: gray;
+}
+
+.footer iframe {
+	height: 20.5em;
+	width: 25em;
+	padding: 2%;
+	float: right;
+	margin: 2em 15em 0 0;
+}
+
+.footer .philosophy {
+	width: 20%;
+	float: left;
+	padding-left: 18%;
+	padding-top: 2%	;
+	margin-top: 2em;
+	color: #fff;
+}
+
+.footer .rights {
+	width: 100%;
+	text-align: center;
+}
+
+/*slideshow*/
+
+.slide-container {
+	width: 100%;
+	background: #fff;
+}
+
+.slider {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+.slider li {
+	list-style: none;
+    width: 100%;
+    display: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.slider li:first-child {
+    display: block;
+}
+
+.slider li img {
+    width: 100%;
+    height: auto;
+}
+
+/******Media Queries*******/
+
+/*ipad - portrait*/
+@media screen and (max-width: 768px) {
+
+	.center h3 {
+	width: 100%;
+	display: block;
+	margin: -3.5em auto 5% auto;
+	text-align: center;
+
+}
+
+.logo {
+	width: 100%;
+}
+
+.logo img{
+	width: 30%;
+	display: block;
+	margin: 5em auto;
+}
+
+.welcome {
+	width: 100%;
+	float: left;
+	margin: 0 5%;
+}
+
+
+.contact {
+	width: 45%;
+	float: left;
+	margin: 0 5%;
+}
+
+.contact li{
+	list-style: none;
+}
+
+.hours {
+	width: 45%;
+	float: right;
+}
+
+.hours h3 {
+	margin-left: 1em;
+}
+
+.hours ul {
+	margin-left: -1.3em;
+}
+
+.hours li {
+	list-style: none;
+	
+}
+
+.menu-content-bg {
+	height: 85em;
+}
+
+
+.footer {
+	display: none;
+}
+
+}
+
+/*large mobile - portrait*/
+@media screen and (max-width: 736px) {
+}
+
+/*mobile - portrait*/
+@media screen and (max-width: 480px) {
+.nav {
+	width: 100%;
+	background: white;
+	margin-top: -7em;
+}	
+
+.nav li {
+ 	width: 100%;
+ 	text-align: center;
+ }
+
+ .banner img{
+ 	margin-top: 5%;
+ }
+
+ .contact {
+	width: 100%;
+	float: left;
+	margin: 2% 5%;
+}
+
+.hours {
+	width: 100%;
+	float: none ;
+}
+
+.hours h3 {
+	margin-left: 1em;
+}
+
+.hours ul {
+	margin-left: -1.3em;
+}
+
+.content {
+	width: 80%;
+}
+
+.content-bg {
+	height: 40em;
+}
+
+.left, .right {
+	width: 100%;
+	float: none;
+}
+
+.menu-content-bg {
+	height: 120em;
+}
+
+.blank {
+	margin-top: 7em;
+}
+
+
+
+
+
+}
+
+
+
